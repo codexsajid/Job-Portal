@@ -1,10 +1,9 @@
-// export const USER_END_POINT_URL = "https://job-portal-gj77.onrender.com/api/user";
-// export const JOB_END_POINT_URL = "https://job-portal-gj77.onrender.com/api/job";
-// export const APPLICANT_END_POINT_URL = "https://job-portal-gj77.onrender.com/application";
-// export const COMPANY_END_POINT_URL = "https://job-portal-gj77.onrender.com/api/company";
+// frontend/src/components/utiles/urls.js
 
+const BASE_URL =
+    import.meta.env.VITE_API_URL || "http://localhost:8000";
 
-export const USER_END_POINT_URL = "http://localhost:8000/api/user";
-export const JOB_END_POINT_URL = "http://localhost:8000/api/job";
-export const APPLICANT_END_POINT_URL = "http://localhost:8000/api/application";
-export const COMPANY_END_POINT_URL = "http://localhost:8000/api/company";
+export const USER_END_POINT_URL = `${BASE_URL}/api/user`;
+export const JOB_END_POINT_URL = `${BASE_URL}/api/job`;
+export const APPLICANT_END_POINT_URL = `${BASE_URL}/api/application`;
+export const COMPANY_END_POINT_URL = `${BASE_URL}/api/company`;
