@@ -1,4 +1,10 @@
-// frontend/src/components/utiles/urls.js
+
+
+// export const USER_END_POINT_URL = "http://localhost:8000/api/user";
+// export const JOB_END_POINT_URL = "http://localhost:8000/api/job";
+// export const APPLICANT_END_POINT_URL = "http://localhost:8000/api/application";
+// export const COMPANY_END_POINT_URL = "http://localhost:8000/api/company";
+
 
 const BASE_URL =
     import.meta.env.VITE_API_URL || "http://localhost:8000";
